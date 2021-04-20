@@ -77,7 +77,7 @@ namespace VisualTokenizacionWConfig.Logic
                     while ((line = sourceFile.ReadLine()) != null)
                     {
                         // Do the word replacement
-                        line = line.Replace("FWK4", "FWK5");
+                        line = line.Replace("X", "Y");
                         // Write the modified line to the new file
                         tempFileStream.WriteLine(line);
                     }
